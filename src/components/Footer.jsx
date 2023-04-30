@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
     return (
         <footer className="bg-slate-50 dark:bg-gray-900">
-            <div className="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
+            <div className="mx-auto w-full max-w-7xl p-4 py-6 md:py-10">
                 <div className="md:flex md:items-center md:justify-between text-center">
                     <div className="flex space-x-6 justify-center mb-4 md:mb-0 md:order-2">
                         <a href="https://www.facebook.com/szymon.wronski.395/" target="_blank" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
