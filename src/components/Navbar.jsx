@@ -30,16 +30,16 @@ const NavBar = () => {
                 <div>
                     <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"}`}>
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600 font-bold">
+                            <li className="text-gray-600 hover:text-blue-500 font-bold">
                                 <a href="#home" onClick={() => setNavbar(!navbar)}>Home</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600 font-bold">
+                            <li className="text-gray-600 hover:text-blue-500 font-bold">
                                 <a href="#about"onClick={() => setNavbar(!navbar)}>About</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600 font-bold">
+                            <li className="text-gray-600 hover:text-blue-500 font-bold">
                                 <a href="#projects"onClick={() => setNavbar(!navbar)}>Projects</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600 font-bold">
+                            <li className="text-gray-600 hover:text-blue-500 font-bold">
                                 <a href="#contact"onClick={() => setNavbar(!navbar)}>Contact</a>
                             </li>
                         </ul>
