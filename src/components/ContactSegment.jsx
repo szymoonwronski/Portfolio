@@ -2,7 +2,7 @@ import React from "react"
 
 const ContactSegment = () => {
     return (
-        <div id="contact" className="w-full bg-white md:py-20 shadow-sm">
+        <div id="contact" className="w-full bg-white pt-20 md:pb-10 lg:pb-20 shadow-sm">
             <div className="max-w-7xl w-full px-4 mx-auto md:px-8 flex flex-col justify-between">
                 <div className="text-center md:text-left">
                     <span className="text-blue-500 block font-bold text-2xl py-4">CONTACT</span>
