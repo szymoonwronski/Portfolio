@@ -1,6 +1,6 @@
 import React from "react"
 import icon1 from "./../assets/icon1.png"
-import icon2 from "./../assets/icon2.png"
+import icon2 from "./../assets/ucon2.png"
 import icon3 from "./../assets/icon3.png"
 
 const ProjectsSegment = () => {
@@ -23,7 +23,7 @@ const ProjectsSegment = () => {
                 </div>
                 <div className=" bg-white shadow-md rounded-md max-w-xs h-[40rem] mx-auto">
                     <div className="h-80">
-                        <img src={icon2} className="rounded-lg w-full" />
+                        <img src={icon2} className="rounded-lg w-full bg-[#ED1C24]" />
                     </div>
                     <div className="h-80 p-8 text-justify relative">
                         <span className="font-bold text-2xl block text-center mb-8">UNO Game</span>
@@ -41,7 +41,7 @@ const ProjectsSegment = () => {
                     </div>
                     <div className="h-80 p-8 text-justify relative">
                         <span className="font-bold text-2xl block text-center mb-8">Discord Status Lyrics</span>
-                        <span className="text-xl block">Fully functional prototype of application which shows synchronized lyrics from currently listened track on spotify in discord status.</span>
+                        <span className="text-xl block">Fully functional prototype of application which shows synchronized lyrics from currently playing track on spotify in discord status.</span>
                     </div>
                 </div>
             </div>
