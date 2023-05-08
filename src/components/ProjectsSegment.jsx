@@ -23,7 +23,7 @@ const ProjectsSegment = () => {
                 </div>
                 <div className=" bg-white shadow-md rounded-md mx-auto xl:w-[20rem] xl:h-[40rem] lg:w-[18rem] lg:h-[36rem] lg:block md:w-[40rem] md:h-[20rem] sm:w-[36rem] sm:h-[18rem] sm:flex sm:my-10">
                     <div className="lg:w-full lg:h-1/2 sm:w-1/2 sm:h-full">
-                        <img src={icon2} className="rounded-lg w-full h-full bg-[#ED1C24]" />
+                        <img src={icon2} className="rounded-lg w-full h-full bg-[#ED1C24] p-1" />
                     </div>
                     <div className="lg:w-full lg:h-1/2 sm:w-1/2 sm:h-full p-8 text-justify relative">
                         <div className="font-bold sm:text-xl md:text-2xl block text-center mb-4 lg:mb-8">UNO Clone</div>

@@ -15,7 +15,7 @@ const ContactSegment = () => {
                         </div>
                         <div className="ml-10 text-xl">
                             <span className="block font-bold">Location</span>
-                            <span>Polska, Lublin</span>
+                            <span>Lublin, Polska</span>
                         </div>
                     </div>
                     <div className="flex items-center">
