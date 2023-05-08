@@ -15,7 +15,7 @@ const ContactSegment = () => {
                         </div>
                         <div className="text-lg sm:text-xl text-center xs:text-left">
                             <span className="block font-bold">Location</span>
-                            <span>Lublin, Polska</span>
+                            <span className="hover:text-blue-500"><a href="https://www.google.com/maps/place/Lublin" target="_blank">Lublin, Polska</a></span>
                         </div>
                     </div>
                     <div className="xs:flex items-center">
@@ -24,7 +24,7 @@ const ContactSegment = () => {
                         </div>
                         <div className="text-lg sm:text-xl text-center xs:text-left">
                             <span className="block font-bold">Mail</span>
-                            <span>szymoon.wronski@gmail.com</span>
+                            <span className="hover:text-blue-500"><a href="mailto:szymoon.wronski@gmail.com">szymoon.wronski@gmail.com</a></span>
                         </div>
                     </div>
                 </div>
