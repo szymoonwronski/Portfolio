@@ -9,7 +9,7 @@ const DevIcon = ({ icon }) => {
 
 const HomeSegment = () => {
     return (
-        <div className="bg-slate-50 dark:bg-gray-900 w-full py-32 md:py-64 shadow-sm" id="home">
+        <section className="bg-slate-50 dark:bg-gray-900 w-full py-32 md:py-64 shadow-sm" id="home">
             <div className="flex flex-col text-center md:text-left px-4 md:px-8 mx-auto w-full max-w-7xl">
                 <span className="text-4xl xs:text-6xl font-bold">
                     Hi! I'm a software{" "}
@@ -36,7 +36,7 @@ const HomeSegment = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

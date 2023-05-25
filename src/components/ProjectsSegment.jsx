@@ -5,7 +5,7 @@ import icon3 from "./../assets/icon3.png"
 
 const ProjectsSegment = () => {
     return (
-        <div id="projects" className="w-full bg-slate-50 py-20 shadow-sm">
+        <section id="projects" className="w-full bg-slate-50 py-20 shadow-sm">
             <div className="max-w-7xl w-full mx-auto px-4 lg:px-8 lg:flex">
                 <div className="bg-white shadow-md rounded-md mx-auto xl:w-[20rem] xl:h-[40rem] lg:w-[18rem] lg:h-[36rem] lg:block md:w-[40rem] md:h-[20rem] sm:w-[36rem] sm:h-[18rem] xs:flex my-10 xs:w-[90vw] xs:h-[45vw] w-[70vw] h-[140vw]">
                     <div className="lg:w-full lg:h-1/2 xs:w-1/2 xs:h-full w-full h-1/2">
@@ -45,7 +45,7 @@ const ProjectsSegment = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

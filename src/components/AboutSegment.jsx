@@ -1,9 +1,9 @@
 import React from "react"
-import photo from "./../assets/photo8.png"
+import photo from "./../assets/photo1.png"
 
 const AboutSegment = () => {
     return (
-        <div id="about" className="w-full bg-white py-20 sm:py-40 shadow-sm]">
+        <section id="about" className="w-full bg-white py-20 sm:py-40 shadow-sm]">
             <div className="max-w-7xl w-full mx-auto flex px-4 md:px-8 items-center">
                 <div className="w-1/2 p-8 hidden lg:block">
                     <img src={photo} className="rounded-3xl w-[30rem]" />
@@ -17,7 +17,7 @@ const AboutSegment = () => {
                     <div className="text-base xs:text-xl text-justify mt-4">My name is Szymon and I'm currently in high school. I'm planning to become a programmer in future. I've already made some projects which you'll be able to see next. I also have some experience in teaching others programming and coding. Go and see my work!</div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
