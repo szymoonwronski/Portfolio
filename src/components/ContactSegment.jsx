@@ -24,7 +24,7 @@ const ContactSegment = () => {
                         </div>
                         <div className="text-lg sm:text-xl text-center xs:text-left">
                             <span className="block font-bold">Mail</span>
-                            <span className="hover:text-blue-500"><a href="mailto:szymoon.wronski@gmail.com">szymoon.wronski@gmail.com</a></span>
+                            <span className="hover:text-blue-500"><a href="mailto:contact@szymonwronski.com">contact@szymonwronski.com</a></span>
                         </div>
                     </div>
                 </div>
