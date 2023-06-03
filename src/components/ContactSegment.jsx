@@ -15,7 +15,7 @@ const ContactSegment = () => {
                         </div>
                         <div className="text-lg sm:text-xl text-center xs:text-left">
                             <span className="block font-bold">Location</span>
-                            <span className="hover:text-blue-500"><a href="https://www.google.com/maps/place/Lublin" target="_blank">Lublin, Polska</a></span>
+                            <span className="hover:text-blue-500"><a href="https://www.google.com/maps/place/Lublin" target="_blank">Lublin, Poland</a></span>
                         </div>
                     </div>
                     <div className="xs:flex items-center">
